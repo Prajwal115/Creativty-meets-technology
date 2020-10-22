@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Technology |Technology With Creativity</title>
+<link rel ="stylesheet" href="CSS/1.css"></link>
+  <link rel="icon" href="IMAGES/Code.jpg">
+</head>
+<style>
+footer{
+  color:white;
+  background-color: #100186;
+  font-weight: bold;
+  font-family: cursive;
+  text-align: center;
+}
+footer:hover{
+  color:yellow;
+}
+  body{
+     background-image: url("IMAGES/tech.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+  @keyframes e{
+    0%{left:400px;}
+    100%{left:0px;}
+  }
+  footer{
+    animation-name: e;
+    animation-duration: 1s;
+    position: relative;
+  }
+
+</style>
+<body>
+  <div id="hamburger" class ="sidenav">
+
+<a href ="javascript:void(0)" class ="closebtn" onclick="closeNav()">&times;</a>
+<a href ="home.html">Home</a>
+<a href="awesome.html">Awesome Solutions - Expanding possibilities </a>
+<a href="inter.html">Interference of Technology over Creativity </a>
+<a href = "conc.html">Conclusion</a>
+<a href ="t.html">Contact Me</a>
+<a href = "about.html">About Me and This Website</a>
+
+</div>
+<span style="font-size:30px;cursor:pointer;"onclick=openNav()>&#9776 </span>
+
+<script>
+function openNav(){
+  document.getElementById ("hamburger").style.display="block";}
+  </script>
+<script>
+function closeNav(){
+document.getElementById("hamburger").style.display="none";
+}
+</script>
+<h1>Technology - Digitally Yours !</h1>
+<footer>Copyright 2020 - Made By Prajwal</footer>
+
+</body>
+</html>
